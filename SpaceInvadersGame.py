@@ -12,6 +12,7 @@ class SpaceInvaders():
         # background = webbrowser.open(
         #     "https://ia601203.us.archive.org/13/items/13BinarySunsetAlternate/21%20Scherzo%20for%20X-Wings.mp3",
         #     autoraise=False)
+        # Test to see why Github uploaded via an old account....
 
         # Set up display parameters
         display_width = 800
@@ -29,7 +30,7 @@ class SpaceInvaders():
 
         # Set up my spaceship design (Should be 100 x 100 pixels)
         self.my_spaceship = Game_Object.GameObject(type='Player', name='Player Spaceship', attack_value=1,
-                                                   hit_points=100,
+                                                   hit_points=10,
                                                    image='Millennium_Falcon.png', image_width=50, image_height=70,
                                                    xcor=int(display_width * 0.45), ycor=int(display_height * 0.8),
                                                    lr_speed=5, ud_speed=5)
